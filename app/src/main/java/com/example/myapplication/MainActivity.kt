@@ -21,5 +21,3 @@ class MainActivity : AppCompatActivity() {
 
     fun faster(first : Car, second: Car): Car = if (first.speed > second.speed) first else second
 }
-
-data class Car(val name: String, val speed: Int)
